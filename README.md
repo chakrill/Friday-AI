@@ -1,2 +1,55 @@
-# Friday-AI
-"Revolutionize your digital experience with our desktop AI voice-to-search engine converter. Seamlessly transform spoken words into powerful search queries, enhancing accessibility and productivity. Unleash the efficiency of voice-driven interactions for a more intuitive and personalized desktop search experience."
+# Friday Desktop AI
+
+A Python-based desktop voice assistant capable of performing various tasks like playing music, taking screenshots, telling the time, and searching the web.
+
+## Features
+
+-   **Voice Interaction**: Speaks and listens to commands.
+-   **Web Automation**: Opens YouTube, Google, and searches Wikipedia.
+-   **System Utilities**:
+    -   Takes screenshots.
+    -   Reports CPU and battery usage.
+    -   Opens system applications (Notepad, Calculator, etc.).
+-   **Media Playback**: Plays music from your local library or YouTube.
+-   **Information**: Tells time, date, weather, and news headlines.
+-   **Fun**: Tells jokes and can change its voice.
+
+## Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/Friday-Desktop-AI.git
+    cd Friday-Desktop-AI
+    ```
+
+2.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *(Note: You may need to create a `requirements.txt` file listing libraries like `pyttsx3`, `speechRecognition`, `wikipedia`, `pywhatkit`, `selenium`, etc.)*
+
+3.  **Prerequisites**:
+    -   Python 3.x
+    -   Active Internet connection for speech recognition and web features.
+    -   Microphone.
+
+## Usage
+
+Run the main script:
+
+```bash
+python Friday.py
+```
+
+Click the **"WISH ME"** button to start, or **"PLAY"** to begin listening for commands.
+
+## Code Structure
+
+-   `Friday.py`: Main application logic and GUI.
+-   `Libraries.py`: Import statements for all required libraries.
+-   `News.py`, `weather.py`, `diction.py`: Helper modules for specific features.
+-   `Assistant.gif`: Animation for the GUI.
+
+## Contributing
+
+Feel free to open issues or submit pull requests to improve Friday!
